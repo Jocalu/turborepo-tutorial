@@ -9,6 +9,10 @@
     "lint": {
       "outputs": []
     },
+    "test": {
+      "dependsOn": ["build"],
+      "inputs": ["src/**/*.tsx", "src/**/*.ts"]
+    },
     "dev": {
       "cache": false
     }
