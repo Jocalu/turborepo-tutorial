@@ -1,0 +1,100 @@
+{
+  "characters": [
+    {
+      "id": 1,
+      "name": "Rick Sanchez",
+      "species": "Human",
+      "image": "https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Morty Smith",
+      "species": "Human",
+      "image": "https://rickandmortyapi.com/api/character/avatar/2.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Tammy Guetermann",
+      "species": "Human",
+      "image": "https://rickandmortyapi.com/api/character/avatar/626.jpeg"
+    },
+    {
+      "id": 4,
+      "name": "Cool Rick",
+      "species": "Human",
+      "image": "https://rickandmortyapi.com/api/character/avatar/72.jpeg"
+    },
+    {
+      "id": 5,
+      "name": "Robot Morty",
+      "species": "Robot",
+      "image": "https://rickandmortyapi.com/api/character/avatar/298.jpeg"
+    },
+    {
+      "id": 6,
+      "name": "Tiny Rick",
+      "species": "Human",
+      "image": "https://rickandmortyapi.com/api/character/avatar/353.jpeg"
+    },
+    {
+      "id": 7,
+      "name": "Mothership Intern",
+      "species": "Alien",
+      "image": "https://rickandmortyapi.com/api/character/avatar/527.jpeg"
+    },
+    {
+      "id": 8,
+      "name": "Evil Morty",
+      "species": "Human",
+      "image": "https://rickandmortyapi.com/api/character/avatar/636.jpeg"
+    },
+    {
+      "id": 9,
+      "name": "Cirque du Soleil Zumanity Member",
+      "species": "Human",
+      "image": "https://rickandmortyapi.com/api/character/avatar/738.jpeg"
+    },
+    {
+      "id": 10,
+      "name": "Alien Morty",
+      "species": "Alien",
+      "image": "https://rickandmortyapi.com/api/character/avatar/14.jpeg"
+    },
+    {
+      "id": 11,
+      "name": "Amish Cyborg",
+      "species": "Alien",
+      "image": "https://rickandmortyapi.com/api/character/avatar/16.jpeg"
+    },
+    {
+      "id": 12,
+      "name": "Ants in my Eyes Johnson",
+      "species": "Human",
+      "image": "https://rickandmortyapi.com/api/character/avatar/20.jpeg"
+    },
+    {
+      "id": 13,
+      "name": "Evolved Narnian",
+      "species": "Humanoid",
+      "image": "https://rickandmortyapi.com/api/character/avatar/683.jpeg"
+    },
+    {
+      "id": 14,
+      "name": "Wasp Summer",
+      "species": "Animal",
+      "image": "https://rickandmortyapi.com/api/character/avatar/519.jpeg"
+    },
+    {
+      "id": 15,
+      "name": "Varrix",
+      "species": "Alien",
+      "image": "https://rickandmortyapi.com/api/character/avatar/492.jpeg"
+    },
+    {
+      "id": 16,
+      "name": "Alan Rails",
+      "species": "Human",
+      "image": "https://rickandmortyapi.com/api/character/avatar/10.jpeg"
+    }
+  ]
+}

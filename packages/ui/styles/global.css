@@ -12,7 +12,7 @@
   --secondary-color: #2980b9;
   --primary-text-color: #333;
   --secondary-text-color: #fff;
-  --font-family: sans-serif;
+  --font-family: Montserrat, sans-serif;
   --letter-spacing: 0.3px;
   --border-color: #ccc;
   --border-radius: 8px;
@@ -22,7 +22,7 @@
 
 body {
   font-family: var(--font-family);
-  color: var(--text-color);
+  color: var(--primary-text-color);
   letter-spacing: var(--letter-spacing);
   font-size: 100%;
   list-style-type: none;

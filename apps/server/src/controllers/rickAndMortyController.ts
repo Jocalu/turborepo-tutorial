@@ -1,25 +1,5 @@
 import { type Request, type Response } from 'express'
-
-const characters = [
-  {
-    id: 1,
-    name: 'Rick Sanchez',
-    status: 'Alive',
-    species: 'Human',
-    type: '',
-    image:
-      'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png'
-  },
-  {
-    id: 2,
-    name: 'Morty Smith',
-    status: 'Alive',
-    species: 'Human',
-    type: '',
-    image:
-      'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png'
-  }
-]
+import { characters } from '../db/rickAndMortyCharacters.json'
 
 const rickAndMortyController = () => {
   const getCharacters = (_: Request, res: Response) => {
