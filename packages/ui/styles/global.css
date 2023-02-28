@@ -1,0 +1,29 @@
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2980b9;
+  --primary-text-color: #333;
+  --secondary-text-color: #fff;
+  --font-family: sans-serif;
+  --letter-spacing: 0.3px;
+  --border-color: #ccc;
+  --border-radius: 8px;
+  --border: 1px solid var(--border-color);
+  --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--text-color);
+  letter-spacing: var(--letter-spacing);
+  font-size: 100%;
+  list-style-type: none;
+}

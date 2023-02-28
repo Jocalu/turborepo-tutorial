@@ -7,7 +7,12 @@
   text-decoration: none;
 }
 
+:root {
+  --font-family: Cubano, sans-serif;
+}
+
 body {
   font-size: 100%;
   list-style-type: none;
+  font-family: var(--font-family);
 }

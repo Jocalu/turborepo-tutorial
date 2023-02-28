@@ -1,6 +1,6 @@
 .header {
-  background-color: #f0f0f0;
-  padding: 20px;
+  background-color: var(--primary-color);
+  padding: 24px;
 }
 
 .header__list {
@@ -16,7 +16,7 @@
 }
 
 .header__link {
-  color: #333;
+  color: var(--secondary-text-color);
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
