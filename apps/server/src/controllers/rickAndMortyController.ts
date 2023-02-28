@@ -8,7 +8,7 @@ const characters = [
     species: 'Human',
     type: '',
     image:
-      'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png',
+      'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png'
   },
   {
     id: 2,
@@ -17,8 +17,8 @@ const characters = [
     species: 'Human',
     type: '',
     image:
-      'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png',
-  },
+      'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png'
+  }
 ]
 
 const rickAndMortyController = () => {
@@ -32,7 +32,7 @@ const rickAndMortyController = () => {
   }
 
   return {
-    getCharacters,
+    getCharacters
   }
 }
 

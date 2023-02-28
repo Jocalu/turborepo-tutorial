@@ -72,8 +72,10 @@ importers:
 
   apps/server:
     specifiers:
+      '@types/cors': ^2.8.13
       '@types/express': ^4.17.13
       '@types/node': ^17.0.0
+      cors: ^2.8.5
       eslint: ^8.5.0
       express: ^4.17.1
       nodemon: ^2.0.15
@@ -81,8 +83,10 @@ importers:
       tsconfig: workspace:*
       typescript: ^4.5.4
     dependencies:
+      cors: 2.8.5
       express: 4.18.2
     devDependencies:
+      '@types/cors': 2.8.13
       '@types/express': 4.17.17
       '@types/node': 17.0.45
       eslint: 8.35.0
@@ -621,6 +625,12 @@ packages:
       '@types/node': 18.14.2
     dev: true
 
+  /@types/cors/2.8.13:
+    resolution: {integrity: sha512-RG8AStHlUiV5ysZQKq97copd2UmVYw3/pRMLefISZ3S1hK104Cwm7iLQ3fTKx+lsUH2CE8FlLaYeEA2LSeqYUA==}
+    dependencies:
+      '@types/node': 18.14.2
+    dev: true
+
   /@types/express-serve-static-core/4.17.33:
     resolution: {integrity: sha512-TPBqmR/HRYI3eC2E5hmiivIzv+bidAfXofM+sbonAGvyDhySGw9/PQZFt2BLOrjUUR++4eJVpx6KnLQK1Fk9tA==}
     dependencies:
@@ -1068,6 +1078,14 @@ packages:
   /cookie/0.5.0:
     resolution: {integrity: sha512-YZ3GUyn/o8gfKJlnlX7g7xq4gyO6OSuhGPKaaGssGB2qgDUS0gPgtTvoyZLTt9Ab6dC4hfc9dV5arkvc/OCmrw==}
     engines: {node: '>= 0.6'}
+    dev: false
+
+  /cors/2.8.5:
+    resolution: {integrity: sha512-KIHbLJqu73RGr/hnbrO9uBeixNGuvSQjul/jdFvS/KFSIH1hWVd1ng7zOHx+YrEfInLG7q4n6GHQ9cDtxv/P6g==}
+    engines: {node: '>= 0.10'}
+    dependencies:
+      object-assign: 4.1.1
+      vary: 1.1.2
     dev: false
 
   /create-require/1.1.1:

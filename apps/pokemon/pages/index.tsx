@@ -1,10 +1,5 @@
-import { Button } from 'ui'
+import PokemonApp from './_app'
 
-export default function Web() {
-  return (
-    <div>
-      <h1>Web</h1>
-      <Button />
-    </div>
-  )
+export default function App() {
+  return <PokemonApp />
 }
