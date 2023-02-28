@@ -8,9 +8,10 @@ This turborepo uses [pnpm](https://pnpm.io) as a package manager. It includes th
 
 ### Apps and Packages
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `ui`: a stub React component library shared by both `web` and `docs` applications
+- `pokemon`: a [Next.js](https://nextjs.org/) app
+- `rick-and-morty`: another [Next.js](https://nextjs.org/) app
+- `server`: a [Node](https://nodejs.org/es/)/[Express](https://expressjs.com/es/) app
+- `ui`: a stub React component library shared by both `pokemon` and `rick-and-morty` applications
 - `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
 - `tsconfig`: `tsconfig.json`s used throughout the monorepo
 
@@ -29,7 +30,7 @@ This turborepo has some additional tools already setup for you:
 To build all apps and packages, run the following command:
 
 ```
-cd my-turborepo
+cd turborepo-tutorial
 pnpm run build
 ```
 
@@ -38,7 +39,7 @@ pnpm run build
 To develop all apps and packages, run the following command:
 
 ```
-cd my-turborepo
+cd turborepo-tutorial
 pnpm run dev
 ```
 
@@ -49,7 +50,7 @@ Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo
 By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
 
 ```
-cd my-turborepo
+cd turborepo-tutorial
 pnpm dlx turbo login
 ```
 
