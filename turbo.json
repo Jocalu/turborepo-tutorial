@@ -11,7 +11,8 @@
     },
     "lint:style": {},
     "test": {
-      "inputs": ["src/**/*.tsx", "src/**/*.ts"]
+      "inputs": ["src/**/*.tsx", "src/**/*.ts"],
+      "outputs": ["coverage"]
     },
     "dev": {
       "cache": false
