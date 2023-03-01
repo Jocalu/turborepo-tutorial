@@ -1,28 +1,28 @@
 import { Request, Response } from 'express'
 
-import pokemonController from '../controllers/pokemonController'
-import { pokemons } from '../db/pokemons.json'
+import rickAndMortyController from './rickAndMortyController'
+import { characters } from '../db/rickAndMortyCharacters.json'
 
-const { getPokemons } = pokemonController
+const { getCharacters } = rickAndMortyController
 
 const res = {
-  json: jest.fn(),
+  json: jest.fn() as jest.Mock,
   status: jest.fn().mockReturnThis(),
   send: jest.fn()
 } as unknown as Response
 
 const req = {} as unknown as Request
 
-describe('getPokemons', () => {
+describe('getCharacters', () => {
   beforeEach(() => {
     jest.restoreAllMocks()
   })
 
   test('should return a json with a list of pokemons', () => {
-    getPokemons(req, res)
+    getCharacters(req, res)
 
     expect(res.json).toHaveBeenCalledTimes(1)
-    expect(res.json).toHaveBeenCalledWith(pokemons)
+    expect(res.json).toHaveBeenCalledWith(characters)
   })
 
   test('should return a 500 status code if an error occurs', () => {
@@ -30,7 +30,7 @@ describe('getPokemons', () => {
       throw new Error('An error occurred')
     })
 
-    getPokemons(req, res)
+    getCharacters(req, res)
 
     expect(res.status).toHaveBeenCalledTimes(1)
     expect(res.status).toHaveBeenCalledWith(500)

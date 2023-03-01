@@ -1,1 +1,1 @@
-export * from './capitalizeString'
+export * from './src/capitalizeString'

@@ -11,7 +11,7 @@
     },
     "lint:style": {},
     "test": {
-      "inputs": ["src/**/*.tsx", "src/**/*.ts"],
+      "inputs": ["**/*.{js,ts,jsx,tsx}"],
       "outputs": ["coverage"]
     },
     "dev": {

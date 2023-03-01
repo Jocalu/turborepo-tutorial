@@ -5,10 +5,13 @@
   "types": "./index.ts",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint *.ts*"
+    "lint": "eslint *.ts* --fix",
+    "test": "jest --coverage"
   },
   "devDependencies": {
     "eslint-config-custom": "workspace:*",
+    "jest": "^29.4.3",
+    "jest-config-custom": "workspace:*",
     "tsconfig": "workspace:*",
     "typescript": "^4.5.2"
   }

@@ -3,16 +3,15 @@
   "version": "0.0.0",
   "private": true,
   "files": [
-    "base.json",
-    "nextjs.json",
-    "react-library.json",
-    "server.json"
+    "jest-dom.js",
+    "jest-common.js",
+    "jest-next.js",
+    "jest-server.js"
   ],
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.5",
-    "babel-jest": "^29.4.3",
     "esbuild-jest": "^0.5.0",
     "jest": "^29.4.3",
-    "ts-jest": "^29.0.5"
+    "jest-environment-jsdom": "^29.4.3"
   }
 }

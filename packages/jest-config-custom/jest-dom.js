@@ -4,11 +4,11 @@ module.exports = {
   ...sharedConfig,
   testEnvironment: 'jsdom',
   setupFilesAfterEnv: ['@testing-library/jest-dom'],
-  collectCoverageFrom: ['**/*.{js,ts,jsx,tsx}'],
-  moduleFileExtensions: ['js', 'jsx', 'json', 'ts', 'tsx'],
+  collectCoverageFrom: ['src/**/*.{js,ts}'],
+  moduleFileExtensions: ['js', 'json', 'ts'],
   transform: {
-    '^.+\\.tsx?$': 'esbuild-jest',
-    '^.+\\.jsx?$': 'esbuild-jest'
+    '^.+\\.ts$': 'esbuild-jest',
+    '^.+\\.js$': 'esbuild-jest'
   },
   coveragePathIgnorePatterns: [],
   coverageThreshold: null
