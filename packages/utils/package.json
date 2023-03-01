@@ -6,11 +6,12 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint *.ts* --fix",
-    "test": "pnpm dlx jest --coverage"
+    "test": "jest --coverage"
   },
   "devDependencies": {
     "eslint-config-custom": "workspace:*",
     "jest-config-custom": "workspace:*",
+    "jest": "^29.4.3",
     "tsconfig": "workspace:*",
     "typescript": "^4.5.2"
   }

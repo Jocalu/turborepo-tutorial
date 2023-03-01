@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "lint:style": "pnpm dlx stylelint \"**/*.css\" --fix"
+    "lint:style": "stylelint \"**/*.css\" --fix"
   },
   "dependencies": {
     "next": "^13.1.1",
@@ -19,6 +19,7 @@
     "@babel/core": "^7.0.0",
     "eslint-config-custom": "workspace:*",
     "stylelint-config-custom": "workspace:*",
+    "stylelint": "15.2.0",
     "tsconfig": "workspace:*",
     "typescript": "^4.5.3"
   }
