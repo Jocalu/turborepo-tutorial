@@ -3,18 +3,18 @@
   --secondary-color: #2980b9;
   --primary-text-color: #333;
   --secondary-text-color: #fff;
-  --font-family: Montserrat, sans-serif;
+  --font-family: montserrat, sans-serif;
   --letter-spacing: 0.3px;
   --border-color: #ccc;
   --border-radius: 8px;
   --border: 1px solid var(--border-color);
-  --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  --box-shadow: 0 2px 4px rgba(0, 0, 0, 20%);
 }
 
 body {
-  font-family: var(--font-family);
-  color: var(--primary-text-color);
-  letter-spacing: var(--letter-spacing);
-  font-size: 100%;
   list-style-type: none;
+  letter-spacing: var(--letter-spacing);
+  color: var(--primary-text-color);
+  font-family: var(--font-family);
+  font-size: 100%;
 }

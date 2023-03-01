@@ -9,9 +9,9 @@
 }
 
 .card__image {
+  margin: 16px auto;
   width: 100%;
   max-width: 300px;
-  margin: 16px auto;
   height: auto;
   object-fit: cover;
 }
@@ -23,13 +23,13 @@
 .card__title {
   margin-top: 0;
   margin-bottom: 10px;
-  font-size: 24px;
   font-family: var(--font-family);
+  font-size: 24px;
 }
 
 .card__description {
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 16px;
   line-height: 1.5;
+  font-size: 16px;
 }

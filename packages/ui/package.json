@@ -5,13 +5,16 @@
   "types": "./index.tsx",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint *.ts*"
+    "lint": "eslint *.ts*",
+    "lint:style": "npx stylelint \"**/*.css\" --fix"
   },
   "devDependencies": {
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
     "eslint": "^7.32.0",
     "eslint-config-custom": "workspace:*",
+    "stylelint": "^15.2.0",
+    "stylelint-config-custom": "workspace:*",
     "react": "^18.2.0",
     "tsconfig": "workspace:*",
     "typescript": "^4.5.2"

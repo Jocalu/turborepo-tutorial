@@ -6,7 +6,8 @@
     "dev": "next dev --port 3001",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "lint:style": "npx stylelint \"**/*.css\" --fix"
   },
   "dependencies": {
     "next": "^13.1.1",
@@ -19,6 +20,8 @@
     "@babel/core": "^7.0.0",
     "eslint-config-custom": "workspace:*",
     "eslint": "7.32.0",
+    "stylelint": "^15.2.0",
+    "stylelint-config-custom": "workspace:*",
     "tsconfig": "workspace:*",
     "@types/node": "^17.0.12",
     "@types/react": "^18.0.22",

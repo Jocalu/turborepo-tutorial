@@ -6,9 +6,9 @@
 .header__list {
   display: flex;
   justify-content: space-around;
-  list-style: none;
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 .header__item {
@@ -16,8 +16,8 @@
 }
 
 .header__link {
-  color: var(--secondary-text-color);
   text-decoration: none;
+  color: var(--secondary-text-color);
   font-size: 18px;
   font-weight: bold;
 }

@@ -1,18 +1,18 @@
 *,
-*:after,
-*:before {
+*::after,
+*::before {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   text-decoration: none;
 }
 
 :root {
-  --font-family: Cubano, sans-serif;
+  --font-family: cubano, sans-serif;
 }
 
 body {
-  font-size: 100%;
   list-style-type: none;
   font-family: var(--font-family);
+  font-size: 100%;
 }
