@@ -1,4 +1,4 @@
-import { Button, Card, Header } from 'ui'
+import { Button, Card, Header, ResponsiveGrid } from 'ui'
 import { useEffect, useState } from 'react'
 import '../styles/global.css'
 import './app.css'
@@ -12,7 +12,7 @@ interface Pokemon {
 
 export default function PokemonApp() {
   const [pokemons, setPokemons] = useState([])
-  const [display, setDisplay] = useState(false)
+  const [display, setDisplay] = useState(true)
 
   const links = [
     { id: 1, url: '#', label: 'Home' },
@@ -43,7 +43,7 @@ export default function PokemonApp() {
         />
       </div>
       {display && (
-        <section className="app__grid">
+        <ResponsiveGrid minItemWidth={'320px'}>
           {pokemons.map((pokemon: Pokemon) => (
             <Card
               key={pokemon.id}
@@ -52,7 +52,7 @@ export default function PokemonApp() {
               description={pokemon.type}
             />
           ))}
-        </section>
+        </ResponsiveGrid>
       )}
     </div>
   )

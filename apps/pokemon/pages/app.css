@@ -7,10 +7,3 @@
 .app__button {
   padding: 24px 24px 0;
 }
-
-.app__grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  grid-gap: 24px;
-  padding: 24px;
-}

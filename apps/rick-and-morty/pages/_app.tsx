@@ -1,4 +1,4 @@
-import { Card, Header } from 'ui'
+import { Card, Header, ResponsiveGrid } from 'ui'
 import { useEffect, useState } from 'react'
 import '../styles/global.css'
 import './app.css'
@@ -34,7 +34,7 @@ export default function RickAndMortyApp() {
       <Header links={links} />
       <h1 className="app__title">Rick and Morty characters</h1>
 
-      <section className="app__grid">
+      <ResponsiveGrid minItemWidth={'240px'}>
         {characters.map((character: Character) => (
           <Card
             key={character.id}
@@ -43,7 +43,7 @@ export default function RickAndMortyApp() {
             description={character.species}
           />
         ))}
-      </section>
+      </ResponsiveGrid>
     </div>
   )
 }
