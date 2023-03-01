@@ -3,6 +3,7 @@ module.exports = {
   rules: {
     'selector-class-pattern': null,
     'custom-property-pattern': null,
-    'color-function-notation': null
+    'color-function-notation': null,
+    'order/order': ['custom-properties', 'declarations', 'at-rules', 'rules']
   }
 }
