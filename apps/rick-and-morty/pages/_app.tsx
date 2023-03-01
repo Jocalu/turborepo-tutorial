@@ -1,5 +1,8 @@
-import { Card, Header, ResponsiveGrid } from 'ui'
 import { useEffect, useState } from 'react'
+
+import { Card, Header, ResponsiveGrid } from 'ui'
+import { capitalizeString } from 'utils'
+
 import '../styles/global.css'
 import './app.css'
 
@@ -14,11 +17,11 @@ export default function RickAndMortyApp() {
   const [characters, setCharacters] = useState([])
 
   const links = [
-    { id: 1, url: '#', label: 'Home' },
-    { id: 2, url: '#', label: 'Episodes' },
-    { id: 3, url: '#', label: 'Characters' },
-    { id: 4, url: '#', label: 'About' },
-    { id: 5, url: '#', label: 'Contact' }
+    { id: 1, url: '#', label: capitalizeString('home') },
+    { id: 2, url: '#', label: capitalizeString('episodes') },
+    { id: 3, url: '#', label: capitalizeString('characters') },
+    { id: 4, url: '#', label: capitalizeString('about') },
+    { id: 5, url: '#', label: capitalizeString('contact') }
   ]
 
   useEffect(() => {

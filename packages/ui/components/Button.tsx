@@ -1,4 +1,3 @@
-import React from 'react'
 import './Button.css'
 
 type ButtonProps = {
@@ -6,7 +5,7 @@ type ButtonProps = {
   onClick?: () => void
 }
 
-export const Button: React.FC<ButtonProps> = ({ label, onClick }) => {
+export const Button = ({ label, onClick }: ButtonProps) => {
   return (
     <button className="button" onClick={onClick}>
       {label}
