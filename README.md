@@ -1,6 +1,6 @@
-# Turborepo starter
+# Turborepo tutorial
 
-This is an official pnpm starter turborepo.
+This is an official pnpm starter turborepo. Is a repository for educational purposes only.
 
 ## What's inside?
 
@@ -12,7 +12,9 @@ This turborepo uses [pnpm](https://pnpm.io) as a package manager. It includes th
 - `rick-and-morty`: another [Next.js](https://nextjs.org/) app
 - `server`: a [Node](https://nodejs.org/es/)/[Express](https://expressjs.com/es/) app
 - `ui`: a stub React component library shared by both `pokemon` and `rick-and-morty` applications
+- `utils`: a utils library shared by both `pokemon` and `rick-and-morty` applications
 - `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
+- `stylelint-config-custom`: `stylelint` configurations (includes `stylelint-config-standard` and `stylelint-config-concentric-order`)
 - `tsconfig`: `tsconfig.json`s used throughout the monorepo
 
 Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
