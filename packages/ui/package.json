@@ -5,12 +5,11 @@
   "types": "./index.tsx",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint *.ts*",
-    "lint:style": "npx stylelint \"**/*.css\" --fix"
+    "lint": "eslint *.ts* --fix",
+    "lint:style": "pnpm dlx stylelint \"**/*.css\" --fix"
   },
   "devDependencies": {
     "eslint-config-custom": "workspace:*",
-    "stylelint": "^15.2.0",
     "stylelint-config-custom": "workspace:*",
     "react": "^18.2.0",
     "tsconfig": "workspace:*",

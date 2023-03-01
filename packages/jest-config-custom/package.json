@@ -5,11 +5,9 @@
   "files": [
     "jest-dom.js",
     "jest-common.js",
-    "jest-next.js",
     "jest-server.js"
   ],
   "devDependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
     "esbuild-jest": "^0.5.0",
     "jest": "^29.4.3",
     "jest-environment-jsdom": "^29.4.3"
