@@ -9,13 +9,15 @@
     "lint": {
       "dependsOn": ["lint:style"]
     },
-    "lint:style": {},
+    "lint:style": {
+      "inputs": ["**/*.{css,scss}"]
+    },
     "test": {
-      "inputs": ["**/*.{js,ts,jsx,tsx}"],
       "outputs": ["coverage"]
     },
     "dev": {
-      "cache": false
+      "cache": false,
+      "persistent": true
     }
   }
 }

@@ -6,7 +6,7 @@ describe('capitalizeString function', () => {
   })
 
   test('does not change an already capitalized string', () => {
-    expect(capitalizeString('Er')).toBe('Er')
+    expect(capitalizeString('World')).toBe('World')
   })
 
   test('works with an empty string', () => {
