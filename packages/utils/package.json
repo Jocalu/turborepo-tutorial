@@ -12,7 +12,6 @@
     "eslint-config-custom": "workspace:*",
     "jest-config-custom": "workspace:*",
     "jest": "^29.4.3",
-    "tsconfig": "workspace:*",
-    "typescript": "^4.5.2"
+    "tsconfig": "workspace:*"
   }
 }

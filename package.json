@@ -12,8 +12,7 @@
     "dev": "turbo run dev",
     "lint": "turbo run lint",
     "lint:style": "turbo run lint:style",
-    "test": "turbo run test",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "test": "turbo run test"
   },
   "devDependencies": {
     "eslint-config-custom": "workspace:*",
@@ -30,7 +29,6 @@
   "engines": {
     "node": ">=16.0.0"
   },
-  "dependencies": {},
   "packageManager": "pnpm@7.14.0",
   "volta": {
     "node": "16.19.1",

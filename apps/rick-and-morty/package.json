@@ -21,7 +21,6 @@
     "eslint-config-custom": "workspace:*",
     "stylelint-config-custom": "workspace:*",
     "stylelint": "15.2.0",
-    "tsconfig": "workspace:*",
-    "typescript": "^4.5.3"
+    "tsconfig": "workspace:*"
   }
 }
