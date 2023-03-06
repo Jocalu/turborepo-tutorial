@@ -6,4 +6,5 @@
 
 .app__button {
   padding: 24px 24px 0;
+  width: fit-content;
 }

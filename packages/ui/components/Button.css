@@ -5,6 +5,7 @@
   background-color: var(--primary-color);
   cursor: pointer;
   padding: 12px 24px;
+  width: 100%;
   letter-spacing: var(--letter-spacing);
   color: var(--secondary-text-color);
   font-family: var(--font-family);
