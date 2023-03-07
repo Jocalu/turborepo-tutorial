@@ -84,6 +84,7 @@ importers:
       nodemon: ^2.0.15
       ts-node: ^10.4.0
       tsconfig: workspace:*
+      typescript: ^4.5.2
     dependencies:
       cors: 2.8.5
       express: 4.18.2
@@ -94,6 +95,7 @@ importers:
       nodemon: 2.0.21
       ts-node: 10.9.1_alpjt73dvgv6kni625hu7f2l4m
       tsconfig: link:../../packages/tsconfig
+      typescript: 4.9.5
 
   packages/eslint-config-custom:
     specifiers:
