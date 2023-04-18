@@ -24,7 +24,8 @@
     "eslint-config-custom": "workspace:*",
     "husky": "^8.0.2",
     "prettier": "latest",
-    "turbo": "^1.9.3"
+    "turbo": "^1.9.3",
+    "esbuild": "^0.17.17"
   },
   "engines": {
     "node": ">=16.0.0"
