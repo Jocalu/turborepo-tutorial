@@ -1,5 +1,7 @@
 import RickAndMortyApp from './_app'
 
-export default function App() {
+const App = () => {
   return <RickAndMortyApp />
 }
+
+export default App

@@ -1,5 +1,7 @@
 import PokemonApp from './_app'
 
-export default function App() {
+const App = () => {
   return <PokemonApp />
 }
+
+export default App

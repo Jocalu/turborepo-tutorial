@@ -13,7 +13,9 @@ interface Character {
   species: string
 }
 
-export default function RickAndMortyApp() {
+const API_URL = 'https://turborepo-tutorial-server.vercel.app'
+
+const RickAndMortyApp = () => {
   const [characters, setCharacters] = useState([])
 
   const links = [
@@ -25,7 +27,7 @@ export default function RickAndMortyApp() {
   ]
 
   useEffect(() => {
-    fetch('http://localhost:4000/api/characters')
+    fetch(`${API_URL}/api/characters`)
       .then((response) => response.json())
       .then((data) => {
         setCharacters(data)
@@ -50,3 +52,5 @@ export default function RickAndMortyApp() {
     </div>
   )
 }
+
+export default RickAndMortyApp

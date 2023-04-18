@@ -1,5 +1,7 @@
-import { Button, Card, Header, ResponsiveGrid } from 'ui'
 import { useEffect, useState } from 'react'
+
+import { Button, Card, Header, ResponsiveGrid } from 'ui'
+
 import '../styles/global.css'
 import './app.css'
 
@@ -10,7 +12,9 @@ interface Pokemon {
   type: string
 }
 
-export default function PokemonApp() {
+const API_URL = 'https://turborepo-tutorial-server.vercel.app'
+
+const PokemonApp = () => {
   const [pokemons, setPokemons] = useState([])
   const [display, setDisplay] = useState(true)
 
@@ -25,7 +29,7 @@ export default function PokemonApp() {
   }
 
   useEffect(() => {
-    fetch('http://localhost:4000/api/pokemons')
+    fetch(`${API_URL}/api/pokemons`)
       .then((response) => response.json())
       .then((data) => {
         setPokemons(data)
@@ -57,3 +61,5 @@ export default function PokemonApp() {
     </div>
   )
 }
+
+export default PokemonApp
